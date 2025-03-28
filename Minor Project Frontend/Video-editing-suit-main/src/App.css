@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure full width */
+}
+#root {
+  width: 100%; /* Ensure root takes full width */
+  min-height: 100vh; /* Ensure root takes full viewport height */
+}
+
+#root > * { /* Select the direct child of #root */
+  width: 100%; /* Ensure the main content container takes full width */
+}

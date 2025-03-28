@@ -1,0 +1,2 @@
+# Placeholder for color correction model
+# This file should contain the trained model for color correction.
