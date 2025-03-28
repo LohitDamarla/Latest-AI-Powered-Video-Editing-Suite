@@ -6,3 +6,4 @@
 Minor[[:space:]]Project[[:space:]]Backend/venv/Lib/site-packages/torch/lib/*.dll filter=lfs diff=lfs merge=lfs -text
 Minor[[:space:]]Project[[:space:]]Backend/venv/Lib/site-packages/cv2/*.pyd filter=lfs diff=lfs merge=lfs -text
 Minor[[:space:]]Project[[:space:]]Backend/venv/Lib/site-packages/imageio_ffmpeg/binaries/*.exe filter=lfs diff=lfs merge=lfs -text
+*.pyd filter=lfs diff=lfs merge=lfs -text
